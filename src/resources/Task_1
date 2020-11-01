@@ -1,0 +1,3 @@
+SELECT FirstName, LastName, City, State
+FROM address, person
+WHERE address.PersonId = person.PersonId;
